@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\Icons\IconAccess.cs" />
     <Compile Include="Utils\Converter\BooleanToVisibilityConverter.cs" />
     <Compile Include="Utils\Converter\EnumDescriptionToStringConverter.cs" />
     <Compile Include="Utils\CultureHandler.cs" />
