@@ -115,5 +115,14 @@ namespace CommonTools.Utils
             this._logWriter.Close();
             GC.Collect();
         }
+
+
+        public static void WriteQuickMessage(string message, string logPath = "\\QuickMessage.txt")
+        {
+            using (System.IO.StreamWriter file = new System.IO.StreamWriter($"{AppDomain.CurrentDomain.BaseDirectory}{logPath}", true))
+            {
+                file.WriteLine(message);
+            }
+        }
     }
 }

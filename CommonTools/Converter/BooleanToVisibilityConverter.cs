@@ -7,7 +7,7 @@ using System.Globalization;
 using System.Windows;
 using System.Windows.Data;
 
-namespace CommonTools.Utils.Converter
+namespace CommonTools.Converter
 {
     /// <summary>
     /// Converter to convert a Boolean value to a Visibility value. true = Visibility.Visible. false = Visibility.Collapsed. 

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Data;
 
-namespace CommonTools.Utils.Converter
+namespace CommonTools.Converter
 {
     /// <summary>
     /// Converter to convert the description of an Enum (the Description Attribute) to a string. If there is no Description Attribute, the enum name is returned as a string
